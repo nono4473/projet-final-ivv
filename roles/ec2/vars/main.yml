@@ -1,2 +1,18 @@
 ---
 # vars file for ec2
+instance_tag:
+        - master
+        - node1
+        - node2
+        - node3
+
+python_pkgs:
+        - boto
+        - boto3
+
+sg_name: ACM
+sg_description: ACM-SG
+region_name: us-east-1
+subnet_name: subnet-0450c3ea755f26a4e
+ami_id: ami-0cff7528ff583bf9a
+instance_flavour: t2.medium
